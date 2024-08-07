@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root, button {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+    color: #E1E1E6;
+}
+
+body {
+    font-size: 1.8rem;
+
+    height: 100vh;
+
+    background-size: cover;
+    background-position: bottom;
+}
+
+.home {
+    background-image:url(./assets/bg-home.png);
+}
+
+.universe {
+    background-image:url(./assets/bg-universe.png);
+}
+
+.exploration{
+    background-image:url(./assets/bg-exploration.png);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+
+    padding: 4rem 7.2rem;
+}
+
+nav {
+    display: flex;
+    gap: 3.2rem;
+}
+
+nav a {
+    font-size: 2.2rem;
+    color: #C4C4CC;
+    text-decoration: none;
+}
+
+nav a:focus {
+    font-weight: 700;
+    color: #FFF;
+}
+
+main {
+    padding: 6.3rem 10.2rem;
+}
+
+main h1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+
+main p {
+    max-width: 64.8rem;
+
+    margin-top: 1.6rem;
+
+    line-height: 2.8rem;
+}
+
+.homeContent, .error {
+    display: grid;
+    place-content: center;
+    padding-top: 8rem;
+}
+
+.homeContent button {
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    padding: 1.2rem 3.2rem;
+    margin: auto;
+    margin-top: 2.4rem;
+
+    background: none;
+
+    border-radius: .5rem;
+    border: 2px solid #FFF;
+    
+    cursor: pointer;
+}
+
+.homeContent button:hover {
+    background-color: #FFF;
+    color: #02799D;
+}
+
+.error {
+    text-align: center;
+}
+
+.error h2 {
+    margin-top: 2rem;
+}
